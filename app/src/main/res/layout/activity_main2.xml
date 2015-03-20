@@ -21,7 +21,7 @@
         android:layout_below="@+id/textView"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="70dp"
-         />
+        android:onClick="onButton3_1Clicked" />
 
     <Button
         android:layout_width="wrap_content"
@@ -33,7 +33,8 @@
         android:layout_marginLeft="115dp"
         android:layout_centerVertical="true"
         android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onButton3_2Clicked" />
 
     <Button
         android:layout_width="wrap_content"
@@ -44,7 +45,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="115dp"
         android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onButton3_3Clicked" />
 
 
 </LinearLayout>
